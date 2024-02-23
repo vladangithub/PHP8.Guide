@@ -16,8 +16,31 @@ $int2 = 1;
 //var_dump(PHP_INT_MAX);
 //var_dump(9223372036854775809);
 
-var_dump("10");#числовая строка
-var_dump("10Hello");// префиксная числовая строка
-var_dump((integer)"10Hello");//
-var_dump((int)"Hello10");//нечисловая строка
-var_dump((int)"Hello?!");
+//var_dump("10");#числовая строка
+//var_dump("10Hello");// префиксная числовая строка
+//var_dump((integer)"10Hello");//
+//var_dump((int)"Hello10");//нечисловая строка
+//var_dump((int)"Hello?!");
+
+//var_dump("10" + 20); //30
+//var_dump("10str" + 20);// 30 warning
+//var_dump("str10" + 20); // fatal error
+
+$float = 1_999.893;
+//var_dump($float);
+//
+//var_dump((float)123 + 10);
+
+var_dump(0.1 + 0.2);
+
+
+
+
+
+
+
+
+
+
+
+
