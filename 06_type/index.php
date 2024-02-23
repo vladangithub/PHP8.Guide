@@ -21,3 +21,5 @@ var_dump("10Hello");// префиксная числовая строка
 var_dump((integer)"10Hello");//
 var_dump((int)"Hello10");//нечисловая строка
 var_dump((int)"Hello?!");
+var_dump((int)"Hello10");//нечисловая строка
+var_dump((int)"Hello?!");
