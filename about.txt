@@ -1,0 +1,2 @@
+10_Comparison Operators_Операторы сравнения
+11_Логические операторы_Logical operators
