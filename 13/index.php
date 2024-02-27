@@ -20,6 +20,7 @@ if ($light == 'green') {
     echo 'Run';
 }
 
+
 //if ($light == 'green')
 //    echo 'You can go';
 
