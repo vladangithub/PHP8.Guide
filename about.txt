@@ -5,3 +5,4 @@
 14_Ternary operator_тернарный оператор
 15_Циклы
 16_Homework2
+17_For
