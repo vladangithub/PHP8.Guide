@@ -45,21 +45,21 @@ $i = 3;
 //        echo 5;
 //}
 
-$light = 'white';
-
-switch ($light) {
-    case "green":
-        echo 'Go';
-        break;
-    case 'red':
-        echo 'Stop';
-        break;
-    case "yellow";
-        echo 'Run';
-        break;
-    default:
-        echo 'Barun';
-}
+//$light = 'white';
+//
+//switch ($light) {
+//    case "green":
+//        echo 'Go';
+//        break;
+//    case 'red':
+//        echo 'Stop';
+//        break;
+//    case "yellow";
+//        echo 'Run';
+//        break;
+//    default:
+//        echo 'Barun';
+//}
 
 
 
