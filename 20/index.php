@@ -16,14 +16,23 @@ $i = 4;
 //    default => 'Var > 4',
 //};
 
-//$grade = 10;
-//
+$grade = 3;
+
 //$res = match (true) {
-//
+//    ($grade >= 10) => 'excellent',
+//    ($grade >= 7) => 'good',
+//    ($grade >= 4) => 'bad',
+//    default => 'very bad',
 //};
-//
-//
-//echo $res;
+
+$res = match (true) {
+    ($grade >= 10) && ($grade <= 12) => 'exellent',
+    ($grade >= 7) && ($grade <= 10)=> 'good',
+    ($grade >= 4) && ($grade <= 7)=> 'bad',
+    default => 'very bad',
+};
+
+echo $res;
 
 
 
