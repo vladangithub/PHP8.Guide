@@ -1,6 +1,6 @@
-<?php error_reporting(-1);
+<?php error_reporting(-1)
 
-$i = 4;
+
 
 //$resault = match ($i) {
 //    1 => 'One',
@@ -16,7 +16,7 @@ $i = 4;
 //    default => 'Var > 4',
 //};
 
-$grade = 3;
+//$grade = 3;
 
 //$res = match (true) {
 //    ($grade >= 10) => 'excellent',
@@ -25,14 +25,14 @@ $grade = 3;
 //    default => 'very bad',
 //};
 
-$res = match (true) {
-    ($grade >= 10) && ($grade <= 12) => 'exellent',
-    ($grade >= 7) && ($grade <= 10)=> 'good',
-    ($grade >= 4) && ($grade <= 7)=> 'bad',
-    default => 'very bad',
+/*$res = match (true) {;
+    ($grade >= 10) && ($grade <= 12) => 'exellent',;
+    ($grade >= 7) && ($grade <= 10)=> 'good',;
+    ($grade >= 4) && ($grade <= 7)=> 'bad',;
+    default => 'very bad',;
 };
 
-echo $res;
+echo $res;*/
 
 
 
@@ -45,3 +45,5 @@ echo $res;
 
 
 
+
+?>
