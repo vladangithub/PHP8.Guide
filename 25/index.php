@@ -70,12 +70,12 @@
 //var_dump(sum(1, 2, 3));
 
 
-function sum($term1, $term2, $factor)
+function sum($term1, $term2 = 1, $factor = 2,)
 {
     return ($term1 + $term2) * $factor;
 }
 
-echo sum(1, 2, 3);
+echo sum(1, factor: 3);
 
 
 

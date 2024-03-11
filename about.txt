@@ -8,3 +8,4 @@
 17_For
 21_Array beauty echo:
 echo '<pre>' . print_r($nums, 1) . '</pre>';
+28_Альтернативный синтаксис управляющих структур
