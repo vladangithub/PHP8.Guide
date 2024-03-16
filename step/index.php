@@ -8,3 +8,50 @@
 //
 //$foundation = 2013;
 //echo $foundation;
+
+$str1 = 'Hello, ';
+$str2 = 'Stepik';
+
+echo $str1.$str2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
